@@ -1,0 +1,26 @@
+@import "../../css-config/mixins.scss";
+.product-container {
+  margin: 50px 0;
+  @include md {
+    margin: 75px 0;
+  }
+  .mainheading {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    @include md {
+      margin-bottom: 35px;
+    }
+  }
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    @include md {
+      gap: 20px;
+    }
+  }
+}
