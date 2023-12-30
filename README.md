@@ -15,3 +15,9 @@ For the backend, I used Strapi. To launch the backend server, run the command
 npm run develop in the api directory.
 
 Finally, you can view the website.
+
+
+Techstack :- react.js for frontend
+             SCSS for styling
+             strapi for backend
+             and stripe for payment 
